@@ -1,22 +1,22 @@
 # Cohort 2 iOS Repo
  
-## - Variables and constants
+## Variables and constants
 
-## - Condtionals 
+## Condtionals 
 ###  - If statement
 ###  - Switch statement
 ###  - Identity and Equality operator
 
-## - Loops
+## Loops
 ###  - For Loop
 ###  - While loop
 ###  - Range operators
 
-## - Arrays
+## Arrays
 ###  - Adding, fetching, removing elements
 ###  - Looping through array
 ###  - Accessing index and value in array with enumerated()
 
-## - Dictionaries
+## Dictionaries
 ###  - Adding, fetching, removing elements
 ###  - Looping through dictionary
