@@ -3,20 +3,20 @@
 ## Variables and constants
 
 ## Condtionals 
-###  - If statement
-###  - Switch statement
-###  - Identity and Equality operator
+  - If statement
+  - Switch statement
+  - Identity and Equality operator
 
 ## Loops
-###  - For Loop
-###  - While loop
-###  - Range operators
+  - For Loop
+  - While loop
+  - Range operators
 
 ## Arrays
-###  - Adding, fetching, removing elements
-###  - Looping through array
-###  - Accessing index and value in array with enumerated()
+  - Adding, fetching, removing elements
+  - Looping through array
+  - Accessing index and value in array with enumerated()
 
 ## Dictionaries
-###  - Adding, fetching, removing elements
-###  - Looping through dictionary
+  - Adding, fetching, removing elements
+  - Looping through dictionary
