@@ -3,7 +3,6 @@ import Foundation
 
 class House {
     var name : String = "House 1"
-    
     // dont have default init
 }
 
@@ -11,7 +10,6 @@ var house1 = House() // 111
 let house2 = House() // 222
 
 // if class is constant we can change the variable
-
 house1 = house2 // same memory location
 house2.name = "House 2"
 //print(house1.name)
@@ -20,7 +18,7 @@ class Person {
     var name : String
     var profession: String?
     
-    // Required or Designated initializer
+    //MARK: - Required or Designated initializer
     init(name: String, profession: String? = nil) {
         self.name = name
         self.profession = profession
@@ -38,13 +36,13 @@ class Person {
 
 extension Person {
     
-    // Computed properties
+    //MARK: - Computed properties
     var firstName: String  {
         let firstName = name.components(separatedBy: " ").first ?? ""
         return firstName
     }
     
-    // Optional or Convenience initializer
+    //MARK: - Optional or Convenience initializer
     convenience init(personName: String) {
         self.init(name: personName, profession: "Not employed yet")
     }
@@ -72,11 +70,14 @@ struct Player {
 }
 
 extension Player {
+    //MARK: - Custom initializer
+    //This is optional since it is inside extension
     init(playerName: String) {
         name = playerName.uppercased()
         print("Adding a new player to the team")
     }
     
+    //MARK: - Failable initializer
     init?(age: Int) {
         if age < 40 && age > 16 {
             self.age = age
