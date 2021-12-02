@@ -54,7 +54,7 @@ extension Person {
 }
 
 let person = Person(personName: "Ashish")
-print(person.profession)
+//print(person.profession)
 //person.displayName()
 //let person = Person(name: "Ashish")
 //person.name = "Ahmed"
@@ -67,6 +67,15 @@ let aString = String()
 struct Player {
     var name: String = "John doe"
     var age: Int = 0
+    var gamesCount = Calculator.calculateGamesPlayed() // computed property
+    
+    lazy var gamesPlayed = {
+        return Calculator.calculateGamesPlayed()
+    }()
+
+    lazy var introduction = {
+        return "Hi I am \(name) and my age is \(age)"
+    }()
 }
 
 extension Player {
@@ -74,7 +83,7 @@ extension Player {
     //This is optional since it is inside extension
     init(playerName: String) {
         name = playerName.uppercased()
-        print("Adding a new player to the team")
+        //print("Adding a new player to the team")
     }
     
     //MARK: - Failable initializer
@@ -87,17 +96,29 @@ extension Player {
     }
 }
 
-let mj = Player(name: "Ashish", age: 30)
-let sachin = Player(playerName: "Sachin")
-print(mj.name)
-print(sachin.name)
+struct Calculator {
+    static func calculateGamesPlayed() -> Int {
+        var games: [Int] = []
+        for i in 1...5 {
+            print("Performing for loop")
+            games.append(i)
+        }
+        return games.last!
+    }
+}
+
+var mj = Player(name: "Ashish", age: 30)
+//let sachin = Player(playerName: "Sachin")
+print(mj.name) // introduction is nil here
+//print(mj.introduction) // here introduction is returning the value
+//print(sachin.name)
 
 // age criteria below 40 and above 16
-if let newPlayer = Player.init(age: 41) {
-    print(newPlayer.age)
-} else {
-    print("Not initialised")
-}
+//if let newPlayer = Player.init(age: 41) {
+//    print(newPlayer.age)
+//} else {
+//    print("Not initialised")
+//}
 
 extension Array {
     func middleIndex() -> Int {
@@ -115,4 +136,9 @@ let middleValue = intArray.middleIndex()
 //convenience init:
 
 //Convenience initializers are secondary, supporting initializers for a class. You can define a convenience initializer to call a designated initializer from the same class as the convenience initializer with some of the designated initializer’s parameters set to default values. You can also define a convenience initializer to create an instance of that class for a specific use case or input value type.
+
+
+
+//var mj = Player(age: 30)
+//print(mj?.gamesPlayed)
 
