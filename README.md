@@ -1,7 +1,11 @@
 # Cohort 2 iOS Repo
  
 ## Variables and constants
-
+  - Variables 
+  - Constants
+  - Type inference
+  - Type casting
+  
 ## Conditionals 
   - If statement
   - Switch statement
