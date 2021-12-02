@@ -39,3 +39,26 @@
   - Creating a class and a struct
   - Constant and variable class instances and struct instances 
   - Reference type as class and structs
+ 
+### Solution to calculate Area of traingle with classes and struct
+
+## Inheritance and Class Extension
+  - What is inheritance
+  - Why we need inheritance
+  - Limitations of inheritance
+  - Extensions and its limitations
+
+## Protocols
+  - Why we need protocols
+  - How to create and use protocols
+  - How to pass data using protocols
+  - Protocol extensions
+
+## Autolayout
+  - Intro to Autolayout
+ 
+## Stack Views
+  - Intro to Stack Views
+  - How to use vertical and horizontal stackviews
+  - Nested stackviews
+ 
