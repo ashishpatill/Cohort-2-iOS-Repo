@@ -2,7 +2,15 @@ import UIKit
 
 // Step 1
 protocol Person : AnyObject {
-    func getName(name: String)
+    func getName(name: String) // required functions
+}
+
+// Protocol extension
+extension Person {
+    // optional function
+    func getAge(age: String) {
+        
+    }
 }
 
 protocol Developer: AnyObject {
