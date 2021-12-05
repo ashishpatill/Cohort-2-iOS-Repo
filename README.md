@@ -1,8 +1,12 @@
 # Cohort 2 iOS Repo
  
 ## Variables and constants
-
-## Condtionals 
+  - Variables 
+  - Constants
+  - Type inference
+  - Type casting
+  
+## Conditionals 
   - If statement
   - Switch statement
   - Identity and Equality operator
@@ -40,7 +44,7 @@
   - Constant and variable class instances and struct instances 
   - Reference type as class and structs
  
-### Solution to calculate Area of traingle with classes and struct
+### Solution to calculate Area of triangle with classes and struct
 
 ## Inheritance and Class Extension
   - What is inheritance
