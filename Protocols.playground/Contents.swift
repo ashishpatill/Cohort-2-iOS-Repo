@@ -20,7 +20,6 @@ protocol Developer: AnyObject {
 // Activity 1
 class A: Person, Developer {
     var name = ""
-    var organisation: String = "Apple"
     let b = B() // Strong
     
     func sendOrganisation() {
