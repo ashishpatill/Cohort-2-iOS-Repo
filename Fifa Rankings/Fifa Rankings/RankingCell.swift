@@ -2,15 +2,16 @@
 //  RankingCell.swift
 //  Fifa Rankings
 //
-//  Created by Ashish Pisey on 05/12/21.
+//  Created by Ashish Pisey on 06/12/21.
 //
 
 import UIKit
 
 class RankingCell: UITableViewCell {
 
-    @IBOutlet weak var teamName: UILabel!
-    @IBOutlet weak var rankingScore: UILabel!
+    @IBOutlet weak var teamNameLabel: UILabel!
+    @IBOutlet weak var rankingScoreLabel: UILabel!
+    @IBOutlet weak var teamIcon: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

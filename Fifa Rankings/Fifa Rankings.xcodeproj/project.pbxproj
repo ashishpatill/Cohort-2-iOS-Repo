@@ -14,7 +14,7 @@
 		04A1EF99275CA26A00E81EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A1EF98275CA26A00E81EE2 /* Assets.xcassets */; };
 		04A1EF9C275CA26A00E81EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A1EF9A275CA26A00E81EE2 /* LaunchScreen.storyboard */; };
 		04A1EFA4275CAB1C00E81EE2 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1EFA3275CAB1C00E81EE2 /* DetailVC.swift */; };
-		04A1EFA6275CB1EF00E81EE2 /* RankingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1EFA5275CB1EF00E81EE2 /* RankingCell.swift */; };
+		04E0C43D275DFCC500DAE10A /* RankingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0C43C275DFCC500DAE10A /* RankingCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		04A1EF9B275CA26A00E81EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A1EF9D275CA26A00E81EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A1EFA3275CAB1C00E81EE2 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
-		04A1EFA5275CB1EF00E81EE2 /* RankingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingCell.swift; sourceTree = "<group>"; };
+		04E0C43C275DFCC500DAE10A /* RankingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				04A1EF91275CA26900E81EE2 /* SceneDelegate.swift */,
 				04A1EF93275CA26900E81EE2 /* ViewController.swift */,
 				04A1EFA3275CAB1C00E81EE2 /* DetailVC.swift */,
-				04A1EFA5275CB1EF00E81EE2 /* RankingCell.swift */,
+				04E0C43C275DFCC500DAE10A /* RankingCell.swift */,
 				04A1EF95275CA26900E81EE2 /* Main.storyboard */,
 				04A1EF98275CA26A00E81EE2 /* Assets.xcassets */,
 				04A1EF9A275CA26A00E81EE2 /* LaunchScreen.storyboard */,
@@ -147,7 +147,7 @@
 				04A1EF94275CA26900E81EE2 /* ViewController.swift in Sources */,
 				04A1EFA4275CAB1C00E81EE2 /* DetailVC.swift in Sources */,
 				04A1EF90275CA26900E81EE2 /* AppDelegate.swift in Sources */,
-				04A1EFA6275CB1EF00E81EE2 /* RankingCell.swift in Sources */,
+				04E0C43D275DFCC500DAE10A /* RankingCell.swift in Sources */,
 				04A1EF92275CA26900E81EE2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

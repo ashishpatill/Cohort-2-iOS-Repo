@@ -7,30 +7,18 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, RankingsProtocol {
-    let identifier = "rankingCell"
-    
+class ViewController: UIViewController, RankingsProtocol {
     @IBOutlet weak var rankingsTableView: UITableView!
-    var rankingsArr: [String] = []
+    var rankingsArr: [String] = ["Real Madrid", "Barcelona", "Liverpool", "Man City", "Manchester United"]
+    let cellIdentifier = "RankingCell"
+    var teamName = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        rankingsArr = ["Real Madrid", "Barcelona", "Liverpool", "Man City", "Manchester United"]
+
         rankingsTableView.dataSource = self // Important
-    }
-    
-    // UITableview data source methods
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return rankingsArr.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! RankingCell // Important
-        let teamName = rankingsArr[indexPath.row]
-        cell.teamName?.text = teamName
-        cell.rankingScore.text = "123"
-        return cell
+        rankingsTableView.delegate = self
     }
     
     func passTeamData(teamName: String) {
@@ -39,16 +27,40 @@ class ViewController: UIViewController, UITableViewDataSource, RankingsProtocol 
     
     // Not important for today
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print("prepare for segue called")
+        
         let detailVC = segue.destination as? DetailVC
         if segue.identifier == "RankingDetail"  { // Important
             // pass data to detail VC
-            detailVC?.teamName = "Man City"
+            detailVC?.teamName = teamName
         }
     }
 }
 
 protocol RankingsProtocol {
     func passTeamData(teamName: String)
+}
+
+extension ViewController: UITableViewDataSource, UITableViewDelegate {
+    // UITableview data source methods
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return rankingsArr.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! RankingCell // Important
+        let teamName = rankingsArr[indexPath.row]
+        cell.teamNameLabel?.text = teamName
+        cell.rankingScoreLabel?.text = "123"
+        cell.teamIcon?.image = UIImage.init(systemName: "person")
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        teamName = rankingsArr[indexPath.row]
+        print("Clicked on: \(teamName)")
+        self.performSegue(withIdentifier: "RankingDetail", sender: nil)
+    }
 }
 
 // View controller to Detail VC
