@@ -75,7 +75,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Go to detail screen"/>
                                 <connections>
-                                    <segue destination="BBQ-Nu-39o" kind="showDetail" identifier="RankingDetail" id="0Ls-mR-BIP"/>
+                                    <action selector="addMoreData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eqe-Ph-9fG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -103,11 +103,11 @@
             <objects>
                 <viewController id="BBQ-Nu-39o" customClass="DetailVC" customModule="Fifa_Rankings" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wB8-dy-VSx">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BcW-DY-749">
-                                <rect key="frame" x="10" y="30" width="394" height="30"/>
+                                <rect key="frame" x="10" y="74" width="394" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="MlV-Iy-4M2"/>
                                 </constraints>

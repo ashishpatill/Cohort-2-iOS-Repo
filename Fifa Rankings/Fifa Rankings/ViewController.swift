@@ -35,6 +35,11 @@ class ViewController: UIViewController, RankingsProtocol {
             detailVC?.teamName = teamName
         }
     }
+    
+    @IBAction func addMoreData(_ sender: UIButton) {
+        rankingsArr.append("Team name")
+        rankingsTableView.reloadData()
+    }
 }
 
 protocol RankingsProtocol {
@@ -48,6 +53,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        print("Cell for row")
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! RankingCell // Important
         let teamName = rankingsArr[indexPath.row]
         cell.teamNameLabel?.text = teamName
