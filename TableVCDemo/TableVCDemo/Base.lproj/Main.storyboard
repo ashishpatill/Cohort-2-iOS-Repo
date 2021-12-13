@@ -32,11 +32,18 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Task List" id="98G-Ek-RrY">
-                        <barButtonItem key="rightBarButtonItem" title="Add" id="9gL-wB-xdT">
-                            <connections>
-                                <action selector="addAction:" destination="l4C-F5-tnT" id="cI9-rB-Bnx"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Add" id="9gL-wB-xdT">
+                                <connections>
+                                    <action selector="addAction:" destination="l4C-F5-tnT" id="cI9-rB-Bnx"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Update" id="BbF-do-CZ6">
+                                <connections>
+                                    <action selector="updateTask:" destination="l4C-F5-tnT" id="6KH-uG-UiC"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hkg-9R-f5R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

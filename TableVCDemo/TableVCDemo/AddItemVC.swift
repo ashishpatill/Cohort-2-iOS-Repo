@@ -34,7 +34,8 @@ class AddItemVC: UIViewController {
         
         // pass task to task list screen
         if let task = self.taskTextField.text {
-            let taskObj = Task.init(id:  "123", name: task, status: false)
+            let taskId = UUID().uuidString
+            let taskObj = Task.init(id: taskId, name: task, status: false)
             print("Add item button pressed")
             addItemDelegate?.sendTask(taskObj: taskObj)
             self.navigationController?.popViewController(animated: true) // go back
