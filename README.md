@@ -65,4 +65,31 @@
   - Intro to Stack Views
   - How to use vertical and horizontal stackviews
   - Nested stackviews
+
+## ScrollView
+  - With Constraints
+  - With StackViews
+
+## Share Data between view controllers
+  - How to use protocols to send data between view controllers (Delegation pattern)
+  - How to use properties to send data to next screen
+  - How to send data using segues
+
+## TableView
+  - TableView with default cell
+  - TableView with custom cell
+
+## Navigation with segues
+  - Show segue
+  - Modal segue
+
+## Programmatic navigation
+  - Programmatic navigation without segues
+  - Push vs Modal navigation 
+
+## NSUserDefaults 
+  - Fetch and save data in core data
  
+## Core Data Crud operations
+  - Difference between relational database and object oriented database
+  - Core data operations: Fetch, Save, Update, Delete
