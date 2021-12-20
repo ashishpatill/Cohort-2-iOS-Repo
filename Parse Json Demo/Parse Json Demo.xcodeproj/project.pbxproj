@@ -13,7 +13,7 @@
 		04421904276F2ED4008C214C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04421902276F2ED4008C214C /* Main.storyboard */; };
 		04421906276F2ED5008C214C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04421905276F2ED5008C214C /* Assets.xcassets */; };
 		04421909276F2ED5008C214C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04421907276F2ED5008C214C /* LaunchScreen.storyboard */; };
-		04421911276F2EED008C214C /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 04421910276F2EED008C214C /* movies.json */; };
+		04B90016277058BB00C2D1F4 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B90015277058BB00C2D1F4 /* movies.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		04421905276F2ED5008C214C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04421908276F2ED5008C214C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0442190A276F2ED5008C214C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04421910276F2EED008C214C /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = movies.json; path = "../../Local notifications assignment/Local notifications assignment/movies.json"; sourceTree = "<group>"; };
+		04B90015277058BB00C2D1F4 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				044218FC276F2ED4008C214C /* AppDelegate.swift */,
 				044218FE276F2ED4008C214C /* SceneDelegate.swift */,
 				04421900276F2ED4008C214C /* ViewController.swift */,
-				04421910276F2EED008C214C /* movies.json */,
+				04B90015277058BB00C2D1F4 /* movies.json */,
 				04421902276F2ED4008C214C /* Main.storyboard */,
 				04421905276F2ED5008C214C /* Assets.xcassets */,
 				04421907276F2ED5008C214C /* LaunchScreen.storyboard */,
@@ -130,7 +130,7 @@
 			files = (
 				04421909276F2ED5008C214C /* LaunchScreen.storyboard in Resources */,
 				04421906276F2ED5008C214C /* Assets.xcassets in Resources */,
-				04421911276F2EED008C214C /* movies.json in Resources */,
+				04B90016277058BB00C2D1F4 /* movies.json in Resources */,
 				04421904276F2ED4008C214C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
