@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Local notifications assignment
+//  iOS Time Tracker
 //
-//  Created by Ashish Pisey on 19/12/21.
+//  Created by Ashish Pisey on 21/12/21.
 //
 
 import UIKit

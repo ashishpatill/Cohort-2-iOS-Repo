@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Local notifications assignment
+//  iOS Time Tracker
 //
-//  Created by Ashish Pisey on 19/12/21.
+//  Created by Ashish Pisey on 21/12/21.
 //
 
 import UIKit
@@ -14,8 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        NotificationManager.askUserPermission()
         return true
     }
+    
+    
 
     // MARK: UISceneSession Lifecycle
 

@@ -7,27 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		044218B3276EF90A008C214C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044218B2276EF90A008C214C /* AppDelegate.swift */; };
-		044218B5276EF90A008C214C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044218B4276EF90A008C214C /* SceneDelegate.swift */; };
-		044218B7276EF90A008C214C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044218B6276EF90A008C214C /* ViewController.swift */; };
-		044218BA276EF90A008C214C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044218B8276EF90A008C214C /* Main.storyboard */; };
-		044218BC276EF90A008C214C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044218BB276EF90A008C214C /* Assets.xcassets */; };
-		044218BF276EF90A008C214C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044218BD276EF90A008C214C /* LaunchScreen.storyboard */; };
+		0420496B2771BB7A00E30B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420496A2771BB7A00E30B04 /* AppDelegate.swift */; };
+		0420496D2771BB7A00E30B04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420496C2771BB7A00E30B04 /* SceneDelegate.swift */; };
+		0420496F2771BB7A00E30B04 /* TrackerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420496E2771BB7A00E30B04 /* TrackerListVC.swift */; };
+		042049722771BB7A00E30B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042049702771BB7A00E30B04 /* Main.storyboard */; };
+		042049742771BB7B00E30B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042049732771BB7B00E30B04 /* Assets.xcassets */; };
+		042049772771BB7B00E30B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042049752771BB7B00E30B04 /* LaunchScreen.storyboard */; };
+		042049832771BD5800E30B04 /* TrackerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042049822771BD5800E30B04 /* TrackerVC.swift */; };
+		042049852771BD6900E30B04 /* AddTrackerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042049842771BD6900E30B04 /* AddTrackerVC.swift */; };
+		042049882771C46A00E30B04 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042049872771C46A00E30B04 /* NotificationManager.swift */; };
+		0420498A2771C4EA00E30B04 /* TrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042049892771C4EA00E30B04 /* TrackerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		044218AF276EF90A008C214C /* Local notifications assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Local notifications assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		044218B2276EF90A008C214C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		044218B4276EF90A008C214C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		044218B6276EF90A008C214C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		044218B9276EF90A008C214C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		044218BB276EF90A008C214C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		044218BE276EF90A008C214C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		044218C0276EF90A008C214C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042049672771BB7A00E30B04 /* iOS Time Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Time Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0420496A2771BB7A00E30B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0420496C2771BB7A00E30B04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0420496E2771BB7A00E30B04 /* TrackerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerListVC.swift; sourceTree = "<group>"; };
+		042049712771BB7A00E30B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042049732771BB7B00E30B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042049762771BB7B00E30B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042049782771BB7B00E30B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042049802771BBD000E30B04 /* Project Structure.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Project Structure.md"; sourceTree = "<group>"; };
+		042049822771BD5800E30B04 /* TrackerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerVC.swift; sourceTree = "<group>"; };
+		042049842771BD6900E30B04 /* AddTrackerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTrackerVC.swift; sourceTree = "<group>"; };
+		042049872771C46A00E30B04 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		042049892771C4EA00E30B04 /* TrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		044218AC276EF909008C214C /* Frameworks */ = {
+		042049642771BB7A00E30B04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +46,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		044218A6276EF909008C214C = {
+		0420495E2771BB7A00E30B04 = {
 			isa = PBXGroup;
 			children = (
-				044218B1276EF90A008C214C /* Local notifications assignment */,
-				044218B0276EF90A008C214C /* Products */,
+				042049802771BBD000E30B04 /* Project Structure.md */,
+				042049692771BB7A00E30B04 /* iOS Time Tracker */,
+				042049682771BB7A00E30B04 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		044218B0276EF90A008C214C /* Products */ = {
+		042049682771BB7A00E30B04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				044218AF276EF90A008C214C /* Local notifications assignment.app */,
+				042049672771BB7A00E30B04 /* iOS Time Tracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		044218B1276EF90A008C214C /* Local notifications assignment */ = {
+		042049692771BB7A00E30B04 /* iOS Time Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				044218B2276EF90A008C214C /* AppDelegate.swift */,
-				044218B4276EF90A008C214C /* SceneDelegate.swift */,
-				044218B6276EF90A008C214C /* ViewController.swift */,
-				044218B8276EF90A008C214C /* Main.storyboard */,
-				044218BB276EF90A008C214C /* Assets.xcassets */,
-				044218BD276EF90A008C214C /* LaunchScreen.storyboard */,
-				044218C0276EF90A008C214C /* Info.plist */,
+				0420496A2771BB7A00E30B04 /* AppDelegate.swift */,
+				0420496C2771BB7A00E30B04 /* SceneDelegate.swift */,
+				042049812771BD4400E30B04 /* Controllers */,
+				042049862771C43C00E30B04 /* Helpers */,
+				042049702771BB7A00E30B04 /* Main.storyboard */,
+				042049732771BB7B00E30B04 /* Assets.xcassets */,
+				042049752771BB7B00E30B04 /* LaunchScreen.storyboard */,
+				042049782771BB7B00E30B04 /* Info.plist */,
 			);
-			path = "Local notifications assignment";
+			path = "iOS Time Tracker";
+			sourceTree = "<group>";
+		};
+		042049812771BD4400E30B04 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0420496E2771BB7A00E30B04 /* TrackerListVC.swift */,
+				042049822771BD5800E30B04 /* TrackerVC.swift */,
+				042049842771BD6900E30B04 /* AddTrackerVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		042049862771C43C00E30B04 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				042049872771C46A00E30B04 /* NotificationManager.swift */,
+				042049892771C4EA00E30B04 /* TrackerModel.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		044218AE276EF909008C214C /* Local notifications assignment */ = {
+		042049662771BB7A00E30B04 /* iOS Time Tracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 044218C3276EF90A008C214C /* Build configuration list for PBXNativeTarget "Local notifications assignment" */;
+			buildConfigurationList = 0420497B2771BB7B00E30B04 /* Build configuration list for PBXNativeTarget "iOS Time Tracker" */;
 			buildPhases = (
-				044218AB276EF909008C214C /* Sources */,
-				044218AC276EF909008C214C /* Frameworks */,
-				044218AD276EF909008C214C /* Resources */,
+				042049632771BB7A00E30B04 /* Sources */,
+				042049642771BB7A00E30B04 /* Frameworks */,
+				042049652771BB7A00E30B04 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Local notifications assignment";
-			productName = "Local notifications assignment";
-			productReference = 044218AF276EF90A008C214C /* Local notifications assignment.app */;
+			name = "iOS Time Tracker";
+			productName = "iOS Time Tracker";
+			productReference = 042049672771BB7A00E30B04 /* iOS Time Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		044218A7276EF909008C214C /* Project object */ = {
+		0420495F2771BB7A00E30B04 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					044218AE276EF909008C214C = {
+					042049662771BB7A00E30B04 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 044218AA276EF909008C214C /* Build configuration list for PBXProject "Local notifications assignment" */;
+			buildConfigurationList = 042049622771BB7A00E30B04 /* Build configuration list for PBXProject "iOS Time Tracker" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +140,59 @@
 				en,
 				Base,
 			);
-			mainGroup = 044218A6276EF909008C214C;
-			productRefGroup = 044218B0276EF90A008C214C /* Products */;
+			mainGroup = 0420495E2771BB7A00E30B04;
+			productRefGroup = 042049682771BB7A00E30B04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				044218AE276EF909008C214C /* Local notifications assignment */,
+				042049662771BB7A00E30B04 /* iOS Time Tracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		044218AD276EF909008C214C /* Resources */ = {
+		042049652771BB7A00E30B04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044218BF276EF90A008C214C /* LaunchScreen.storyboard in Resources */,
-				044218BC276EF90A008C214C /* Assets.xcassets in Resources */,
-				044218BA276EF90A008C214C /* Main.storyboard in Resources */,
+				042049772771BB7B00E30B04 /* LaunchScreen.storyboard in Resources */,
+				042049742771BB7B00E30B04 /* Assets.xcassets in Resources */,
+				042049722771BB7A00E30B04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		044218AB276EF909008C214C /* Sources */ = {
+		042049632771BB7A00E30B04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044218B7276EF90A008C214C /* ViewController.swift in Sources */,
-				044218B3276EF90A008C214C /* AppDelegate.swift in Sources */,
-				044218B5276EF90A008C214C /* SceneDelegate.swift in Sources */,
+				042049882771C46A00E30B04 /* NotificationManager.swift in Sources */,
+				0420496F2771BB7A00E30B04 /* TrackerListVC.swift in Sources */,
+				0420496B2771BB7A00E30B04 /* AppDelegate.swift in Sources */,
+				0420496D2771BB7A00E30B04 /* SceneDelegate.swift in Sources */,
+				042049852771BD6900E30B04 /* AddTrackerVC.swift in Sources */,
+				042049832771BD5800E30B04 /* TrackerVC.swift in Sources */,
+				0420498A2771C4EA00E30B04 /* TrackerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		044218B8276EF90A008C214C /* Main.storyboard */ = {
+		042049702771BB7A00E30B04 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				044218B9276EF90A008C214C /* Base */,
+				042049712771BB7A00E30B04 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		044218BD276EF90A008C214C /* LaunchScreen.storyboard */ = {
+		042049752771BB7B00E30B04 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				044218BE276EF90A008C214C /* Base */,
+				042049762771BB7B00E30B04 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +200,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		044218C1276EF90A008C214C /* Debug */ = {
+		042049792771BB7B00E30B04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +261,7 @@
 			};
 			name = Debug;
 		};
-		044218C2276EF90A008C214C /* Release */ = {
+		0420497A2771BB7B00E30B04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,7 +316,7 @@
 			};
 			name = Release;
 		};
-		044218C4276EF90A008C214C /* Debug */ = {
+		0420497C2771BB7B00E30B04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -291,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3BYY9V27X7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Local notifications assignment/Info.plist";
+				INFOPLIST_FILE = "iOS Time Tracker/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ashishpisey.Local-notifications-assignment";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashishpisey.iOS-Time-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,7 +344,7 @@
 			};
 			name = Debug;
 		};
-		044218C5276EF90A008C214C /* Release */ = {
+		0420497D2771BB7B00E30B04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,7 +353,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3BYY9V27X7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Local notifications assignment/Info.plist";
+				INFOPLIST_FILE = "iOS Time Tracker/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +364,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ashishpisey.Local-notifications-assignment";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashishpisey.iOS-Time-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,25 +375,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		044218AA276EF909008C214C /* Build configuration list for PBXProject "Local notifications assignment" */ = {
+		042049622771BB7A00E30B04 /* Build configuration list for PBXProject "iOS Time Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				044218C1276EF90A008C214C /* Debug */,
-				044218C2276EF90A008C214C /* Release */,
+				042049792771BB7B00E30B04 /* Debug */,
+				0420497A2771BB7B00E30B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		044218C3276EF90A008C214C /* Build configuration list for PBXNativeTarget "Local notifications assignment" */ = {
+		0420497B2771BB7B00E30B04 /* Build configuration list for PBXNativeTarget "iOS Time Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				044218C4276EF90A008C214C /* Debug */,
-				044218C5276EF90A008C214C /* Release */,
+				0420497C2771BB7B00E30B04 /* Debug */,
+				0420497D2771BB7B00E30B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 044218A7276EF909008C214C /* Project object */;
+	rootObject = 0420495F2771BB7A00E30B04 /* Project object */;
 }
