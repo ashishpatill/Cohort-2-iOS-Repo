@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0420495D2771ADE000E30B04 /* AddNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420495C2771ADE000E30B04 /* AddNotificationVC.swift */; };
 		04A4647A276B268F00772A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A46479276B268F00772A44 /* AppDelegate.swift */; };
 		04A4647C276B268F00772A44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4647B276B268F00772A44 /* SceneDelegate.swift */; };
 		04A4647E276B268F00772A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4647D276B268F00772A44 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0420495C2771ADE000E30B04 /* AddNotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotificationVC.swift; sourceTree = "<group>"; };
 		04A46476276B268F00772A44 /* Local notificaiton demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Local notificaiton demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A46479276B268F00772A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A4647B276B268F00772A44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				04A46479276B268F00772A44 /* AppDelegate.swift */,
 				04A4647B276B268F00772A44 /* SceneDelegate.swift */,
 				04A4647D276B268F00772A44 /* ViewController.swift */,
+				0420495C2771ADE000E30B04 /* AddNotificationVC.swift */,
 				04A4647F276B268F00772A44 /* Main.storyboard */,
 				04A46482276B268F00772A44 /* Assets.xcassets */,
 				04A46484276B268F00772A44 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				04A4647E276B268F00772A44 /* ViewController.swift in Sources */,
 				04A4647A276B268F00772A44 /* AppDelegate.swift in Sources */,
 				04A4647C276B268F00772A44 /* SceneDelegate.swift in Sources */,
+				0420495D2771ADE000E30B04 /* AddNotificationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

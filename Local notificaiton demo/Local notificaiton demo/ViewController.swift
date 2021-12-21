@@ -58,6 +58,11 @@ extension ViewController: UNUserNotificationCenterDelegate {
         print("did receive notification")
     }
     
+    func removeAllNotifications() {
+        UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [])
+        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+    }
+    
     func showAlert() {
         let alertVC = UIAlertController.init(title: "Alarm", message: "Local notification received", preferredStyle: .alert)
         alertVC.addAction(UIAlertAction.init(title: "OK", style: .cancel, handler: nil))
