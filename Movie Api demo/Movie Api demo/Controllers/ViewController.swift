@@ -28,6 +28,7 @@ class ViewController: UIViewController {
                 print(error?.localizedDescription)
             } else {
                 if let data = data {
+                    print("response received")
                     self.movie = self.parseLogic(data: data)
                     DispatchQueue.main.async {
                         // main thread
