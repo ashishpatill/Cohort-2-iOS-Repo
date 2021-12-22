@@ -1,0 +1,6 @@
+framework module Pods_MyTimeVisualizer_MyTimeVisualizerUITests {
+  umbrella header "Pods-MyTimeVisualizer-MyTimeVisualizerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

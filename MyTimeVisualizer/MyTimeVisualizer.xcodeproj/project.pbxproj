@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116188D1267545B9192540AF /* Pods_MyTimeVisualizer_MyTimeVisualizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C6F2B98F5336E4DF65287D /* Pods_MyTimeVisualizer_MyTimeVisualizerUITests.framework */; };
+		139C6157196C2837890A50B0 /* Pods_MyTimeVisualizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB10101080FFC8DD21D7534 /* Pods_MyTimeVisualizer.framework */; };
+		4D4CBDE906D30479881BE5D5 /* Pods_MyTimeVisualizerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667FF7C945628146000A5097 /* Pods_MyTimeVisualizerTests.framework */; };
+		84015D1C2770D7A100A859BB /* WeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84015D1B2770D7A100A859BB /* WeekTableViewCell.swift */; };
+		84344E72276F87AC00184938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84344E71276F87AC00184938 /* AppDelegate.swift */; };
+		84344E74276F87AC00184938 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84344E73276F87AC00184938 /* SceneDelegate.swift */; };
+		84344E76276F87AC00184938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84344E75276F87AC00184938 /* ViewController.swift */; };
+		84344E79276F87AC00184938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84344E77276F87AC00184938 /* Main.storyboard */; };
+		84344E7C276F87AC00184938 /* MyTimeVisualizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84344E7A276F87AC00184938 /* MyTimeVisualizer.xcdatamodeld */; };
+		84344E7E276F87AD00184938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84344E7D276F87AD00184938 /* Assets.xcassets */; };
+		84344E81276F87AD00184938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84344E7F276F87AD00184938 /* LaunchScreen.storyboard */; };
+		84344E8C276F87AD00184938 /* MyTimeVisualizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84344E8B276F87AD00184938 /* MyTimeVisualizerTests.swift */; };
+		84344E96276F87AD00184938 /* MyTimeVisualizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84344E95276F87AD00184938 /* MyTimeVisualizerUITests.swift */; };
+		84344E98276F87AD00184938 /* MyTimeVisualizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84344E97276F87AD00184938 /* MyTimeVisualizerUITestsLaunchTests.swift */; };
+		84344EA5276F896900184938 /* TopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84344EA4276F896900184938 /* TopicsViewController.swift */; };
+		84344EA7276F8A1A00184938 /* TopicDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84344EA6276F8A1A00184938 /* TopicDelegate.swift */; };
+		84D37EC2276FB05F006882CE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D37EC1276FB05F006882CE /* CustomTableViewCell.swift */; };
+		84D37EC4276FCEC3006882CE /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D37EC3276FCEC3006882CE /* ChartsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84344E88276F87AD00184938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84344E66276F87AC00184938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84344E6D276F87AC00184938;
+			remoteInfo = MyTimeVisualizer;
+		};
+		84344E92276F87AD00184938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84344E66276F87AC00184938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84344E6D276F87AC00184938;
+			remoteInfo = MyTimeVisualizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C6F2B98F5336E4DF65287D /* Pods_MyTimeVisualizer_MyTimeVisualizerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTimeVisualizer_MyTimeVisualizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB10101080FFC8DD21D7534 /* Pods_MyTimeVisualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTimeVisualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		667FF7C945628146000A5097 /* Pods_MyTimeVisualizerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTimeVisualizerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		801678B15592E8AC10FA4E3F /* Pods-MyTimeVisualizerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTimeVisualizerTests.release.xcconfig"; path = "Target Support Files/Pods-MyTimeVisualizerTests/Pods-MyTimeVisualizerTests.release.xcconfig"; sourceTree = "<group>"; };
+		84015D1B2770D7A100A859BB /* WeekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTableViewCell.swift; sourceTree = "<group>"; };
+		84344E6E276F87AC00184938 /* MyTimeVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTimeVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84344E71276F87AC00184938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84344E73276F87AC00184938 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84344E75276F87AC00184938 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84344E78276F87AC00184938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84344E7B276F87AC00184938 /* MyTimeVisualizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyTimeVisualizer.xcdatamodel; sourceTree = "<group>"; };
+		84344E7D276F87AD00184938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84344E80276F87AD00184938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84344E82276F87AD00184938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84344E87276F87AD00184938 /* MyTimeVisualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTimeVisualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84344E8B276F87AD00184938 /* MyTimeVisualizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimeVisualizerTests.swift; sourceTree = "<group>"; };
+		84344E91276F87AD00184938 /* MyTimeVisualizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTimeVisualizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84344E95276F87AD00184938 /* MyTimeVisualizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimeVisualizerUITests.swift; sourceTree = "<group>"; };
+		84344E97276F87AD00184938 /* MyTimeVisualizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimeVisualizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84344EA4276F896900184938 /* TopicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsViewController.swift; sourceTree = "<group>"; };
+		84344EA6276F8A1A00184938 /* TopicDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicDelegate.swift; sourceTree = "<group>"; };
+		84D37EC1276FB05F006882CE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		84D37EC3276FCEC3006882CE /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		B142889E90707945ED26C18E /* Pods-MyTimeVisualizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTimeVisualizer.debug.xcconfig"; path = "Target Support Files/Pods-MyTimeVisualizer/Pods-MyTimeVisualizer.debug.xcconfig"; sourceTree = "<group>"; };
+		C74591CA4C9D7751AEF8CA9C /* Pods-MyTimeVisualizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTimeVisualizer.release.xcconfig"; path = "Target Support Files/Pods-MyTimeVisualizer/Pods-MyTimeVisualizer.release.xcconfig"; sourceTree = "<group>"; };
+		CEA7434551E00AE460CFE18F /* Pods-MyTimeVisualizerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTimeVisualizerTests.debug.xcconfig"; path = "Target Support Files/Pods-MyTimeVisualizerTests/Pods-MyTimeVisualizerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D55DC468A151E94E21638E30 /* Pods-MyTimeVisualizer-MyTimeVisualizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTimeVisualizer-MyTimeVisualizerUITests.release.xcconfig"; path = "Target Support Files/Pods-MyTimeVisualizer-MyTimeVisualizerUITests/Pods-MyTimeVisualizer-MyTimeVisualizerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA80CD972AD8C3C4F958D5DB /* Pods-MyTimeVisualizer-MyTimeVisualizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTimeVisualizer-MyTimeVisualizerUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyTimeVisualizer-MyTimeVisualizerUITests/Pods-MyTimeVisualizer-MyTimeVisualizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84344E6B276F87AC00184938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139C6157196C2837890A50B0 /* Pods_MyTimeVisualizer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84344E84276F87AD00184938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4CBDE906D30479881BE5D5 /* Pods_MyTimeVisualizerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84344E8E276F87AD00184938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116188D1267545B9192540AF /* Pods_MyTimeVisualizer_MyTimeVisualizerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84344E65276F87AC00184938 = {
+			isa = PBXGroup;
+			children = (
+				84344E70276F87AC00184938 /* MyTimeVisualizer */,
+				84344E8A276F87AD00184938 /* MyTimeVisualizerTests */,
+				84344E94276F87AD00184938 /* MyTimeVisualizerUITests */,
+				84344E6F276F87AC00184938 /* Products */,
+				9408ED2B501A3C1B02CB13E8 /* Pods */,
+				8F852BA27A91170CC9B4ABFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84344E6F276F87AC00184938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84344E6E276F87AC00184938 /* MyTimeVisualizer.app */,
+				84344E87276F87AD00184938 /* MyTimeVisualizerTests.xctest */,
+				84344E91276F87AD00184938 /* MyTimeVisualizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84344E70276F87AC00184938 /* MyTimeVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				84344E71276F87AC00184938 /* AppDelegate.swift */,
+				84344E73276F87AC00184938 /* SceneDelegate.swift */,
+				84344E75276F87AC00184938 /* ViewController.swift */,
+				84D37EC3276FCEC3006882CE /* ChartsViewController.swift */,
+				84344E77276F87AC00184938 /* Main.storyboard */,
+				84015D1B2770D7A100A859BB /* WeekTableViewCell.swift */,
+				84D37EC1276FB05F006882CE /* CustomTableViewCell.swift */,
+				84344EA4276F896900184938 /* TopicsViewController.swift */,
+				84344E7D276F87AD00184938 /* Assets.xcassets */,
+				84344E7F276F87AD00184938 /* LaunchScreen.storyboard */,
+				84344E82276F87AD00184938 /* Info.plist */,
+				84344E7A276F87AC00184938 /* MyTimeVisualizer.xcdatamodeld */,
+				84344EA6276F8A1A00184938 /* TopicDelegate.swift */,
+			);
+			path = MyTimeVisualizer;
+			sourceTree = "<group>";
+		};
+		84344E8A276F87AD00184938 /* MyTimeVisualizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				84344E8B276F87AD00184938 /* MyTimeVisualizerTests.swift */,
+			);
+			path = MyTimeVisualizerTests;
+			sourceTree = "<group>";
+		};
+		84344E94276F87AD00184938 /* MyTimeVisualizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84344E95276F87AD00184938 /* MyTimeVisualizerUITests.swift */,
+				84344E97276F87AD00184938 /* MyTimeVisualizerUITestsLaunchTests.swift */,
+			);
+			path = MyTimeVisualizerUITests;
+			sourceTree = "<group>";
+		};
+		8F852BA27A91170CC9B4ABFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AB10101080FFC8DD21D7534 /* Pods_MyTimeVisualizer.framework */,
+				06C6F2B98F5336E4DF65287D /* Pods_MyTimeVisualizer_MyTimeVisualizerUITests.framework */,
+				667FF7C945628146000A5097 /* Pods_MyTimeVisualizerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9408ED2B501A3C1B02CB13E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B142889E90707945ED26C18E /* Pods-MyTimeVisualizer.debug.xcconfig */,
+				C74591CA4C9D7751AEF8CA9C /* Pods-MyTimeVisualizer.release.xcconfig */,
+				DA80CD972AD8C3C4F958D5DB /* Pods-MyTimeVisualizer-MyTimeVisualizerUITests.debug.xcconfig */,
+				D55DC468A151E94E21638E30 /* Pods-MyTimeVisualizer-MyTimeVisualizerUITests.release.xcconfig */,
+				CEA7434551E00AE460CFE18F /* Pods-MyTimeVisualizerTests.debug.xcconfig */,
+				801678B15592E8AC10FA4E3F /* Pods-MyTimeVisualizerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84344E6D276F87AC00184938 /* MyTimeVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84344E9B276F87AD00184938 /* Build configuration list for PBXNativeTarget "MyTimeVisualizer" */;
+			buildPhases = (
+				C1FA1D060D6A85433180610C /* [CP] Check Pods Manifest.lock */,
+				84344E6A276F87AC00184938 /* Sources */,
+				84344E6B276F87AC00184938 /* Frameworks */,
+				84344E6C276F87AC00184938 /* Resources */,
+				2D314D763E47CCEED8C32AA5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTimeVisualizer;
+			productName = MyTimeVisualizer;
+			productReference = 84344E6E276F87AC00184938 /* MyTimeVisualizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84344E86276F87AD00184938 /* MyTimeVisualizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84344E9E276F87AD00184938 /* Build configuration list for PBXNativeTarget "MyTimeVisualizerTests" */;
+			buildPhases = (
+				D09AC0E4E6F6B8E20D9538F7 /* [CP] Check Pods Manifest.lock */,
+				84344E83276F87AD00184938 /* Sources */,
+				84344E84276F87AD00184938 /* Frameworks */,
+				84344E85276F87AD00184938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84344E89276F87AD00184938 /* PBXTargetDependency */,
+			);
+			name = MyTimeVisualizerTests;
+			productName = MyTimeVisualizerTests;
+			productReference = 84344E87276F87AD00184938 /* MyTimeVisualizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84344E90276F87AD00184938 /* MyTimeVisualizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84344EA1276F87AD00184938 /* Build configuration list for PBXNativeTarget "MyTimeVisualizerUITests" */;
+			buildPhases = (
+				54A9A1DFA3F4110A683E61C8 /* [CP] Check Pods Manifest.lock */,
+				84344E8D276F87AD00184938 /* Sources */,
+				84344E8E276F87AD00184938 /* Frameworks */,
+				84344E8F276F87AD00184938 /* Resources */,
+				94D221295971E73900C16FB5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84344E93276F87AD00184938 /* PBXTargetDependency */,
+			);
+			name = MyTimeVisualizerUITests;
+			productName = MyTimeVisualizerUITests;
+			productReference = 84344E91276F87AD00184938 /* MyTimeVisualizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84344E66276F87AC00184938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					84344E6D276F87AC00184938 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					84344E86276F87AD00184938 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 84344E6D276F87AC00184938;
+					};
+					84344E90276F87AD00184938 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 84344E6D276F87AC00184938;
+					};
+				};
+			};
+			buildConfigurationList = 84344E69276F87AC00184938 /* Build configuration list for PBXProject "MyTimeVisualizer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84344E65276F87AC00184938;
+			productRefGroup = 84344E6F276F87AC00184938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84344E6D276F87AC00184938 /* MyTimeVisualizer */,
+				84344E86276F87AD00184938 /* MyTimeVisualizerTests */,
+				84344E90276F87AD00184938 /* MyTimeVisualizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84344E6C276F87AC00184938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84344E81276F87AD00184938 /* LaunchScreen.storyboard in Resources */,
+				84344E7E276F87AD00184938 /* Assets.xcassets in Resources */,
+				84344E79276F87AC00184938 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84344E85276F87AD00184938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84344E8F276F87AD00184938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D314D763E47CCEED8C32AA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTimeVisualizer/Pods-MyTimeVisualizer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTimeVisualizer/Pods-MyTimeVisualizer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyTimeVisualizer/Pods-MyTimeVisualizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A9A1DFA3F4110A683E61C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTimeVisualizer-MyTimeVisualizerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94D221295971E73900C16FB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTimeVisualizer-MyTimeVisualizerUITests/Pods-MyTimeVisualizer-MyTimeVisualizerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTimeVisualizer-MyTimeVisualizerUITests/Pods-MyTimeVisualizer-MyTimeVisualizerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyTimeVisualizer-MyTimeVisualizerUITests/Pods-MyTimeVisualizer-MyTimeVisualizerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1FA1D060D6A85433180610C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTimeVisualizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09AC0E4E6F6B8E20D9538F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTimeVisualizerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84344E6A276F87AC00184938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84344E7C276F87AC00184938 /* MyTimeVisualizer.xcdatamodeld in Sources */,
+				84D37EC4276FCEC3006882CE /* ChartsViewController.swift in Sources */,
+				84344E76276F87AC00184938 /* ViewController.swift in Sources */,
+				84344EA7276F8A1A00184938 /* TopicDelegate.swift in Sources */,
+				84015D1C2770D7A100A859BB /* WeekTableViewCell.swift in Sources */,
+				84D37EC2276FB05F006882CE /* CustomTableViewCell.swift in Sources */,
+				84344E72276F87AC00184938 /* AppDelegate.swift in Sources */,
+				84344EA5276F896900184938 /* TopicsViewController.swift in Sources */,
+				84344E74276F87AC00184938 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84344E83276F87AD00184938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84344E8C276F87AD00184938 /* MyTimeVisualizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84344E8D276F87AD00184938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84344E96276F87AD00184938 /* MyTimeVisualizerUITests.swift in Sources */,
+				84344E98276F87AD00184938 /* MyTimeVisualizerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84344E89276F87AD00184938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84344E6D276F87AC00184938 /* MyTimeVisualizer */;
+			targetProxy = 84344E88276F87AD00184938 /* PBXContainerItemProxy */;
+		};
+		84344E93276F87AD00184938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84344E6D276F87AC00184938 /* MyTimeVisualizer */;
+			targetProxy = 84344E92276F87AD00184938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84344E77276F87AC00184938 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84344E78276F87AC00184938 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84344E7F276F87AD00184938 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84344E80276F87AD00184938 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84344E99276F87AD00184938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84344E9A276F87AD00184938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84344E9C276F87AD00184938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B142889E90707945ED26C18E /* Pods-MyTimeVisualizer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U24PLYJJR2;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyTimeVisualizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reemz.MyTimeVisualizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84344E9D276F87AD00184938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74591CA4C9D7751AEF8CA9C /* Pods-MyTimeVisualizer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U24PLYJJR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyTimeVisualizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reemz.MyTimeVisualizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84344E9F276F87AD00184938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA7434551E00AE460CFE18F /* Pods-MyTimeVisualizerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KWL3JF38Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reemz.MyTimeVisualizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTimeVisualizer.app/MyTimeVisualizer";
+			};
+			name = Debug;
+		};
+		84344EA0276F87AD00184938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801678B15592E8AC10FA4E3F /* Pods-MyTimeVisualizerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KWL3JF38Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reemz.MyTimeVisualizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTimeVisualizer.app/MyTimeVisualizer";
+			};
+			name = Release;
+		};
+		84344EA2276F87AD00184938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA80CD972AD8C3C4F958D5DB /* Pods-MyTimeVisualizer-MyTimeVisualizerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KWL3JF38Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reemz.MyTimeVisualizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyTimeVisualizer;
+			};
+			name = Debug;
+		};
+		84344EA3276F87AD00184938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D55DC468A151E94E21638E30 /* Pods-MyTimeVisualizer-MyTimeVisualizerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KWL3JF38Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reemz.MyTimeVisualizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyTimeVisualizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84344E69276F87AC00184938 /* Build configuration list for PBXProject "MyTimeVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84344E99276F87AD00184938 /* Debug */,
+				84344E9A276F87AD00184938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84344E9B276F87AD00184938 /* Build configuration list for PBXNativeTarget "MyTimeVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84344E9C276F87AD00184938 /* Debug */,
+				84344E9D276F87AD00184938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84344E9E276F87AD00184938 /* Build configuration list for PBXNativeTarget "MyTimeVisualizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84344E9F276F87AD00184938 /* Debug */,
+				84344EA0276F87AD00184938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84344EA1276F87AD00184938 /* Build configuration list for PBXNativeTarget "MyTimeVisualizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84344EA2276F87AD00184938 /* Debug */,
+				84344EA3276F87AD00184938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84344E7A276F87AC00184938 /* MyTimeVisualizer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84344E7B276F87AC00184938 /* MyTimeVisualizer.xcdatamodel */,
+			);
+			currentVersion = 84344E7B276F87AC00184938 /* MyTimeVisualizer.xcdatamodel */;
+			path = MyTimeVisualizer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84344E66276F87AC00184938 /* Project object */;
+}
