@@ -2,7 +2,7 @@
 //  TaskEntity+CoreDataProperties.swift
 //  TableVCDemo
 //
-//  Created by Ashish Pisey on 13/12/21.
+//  Created by Ashish Pisey on 27/12/21.
 //
 //
 
@@ -18,6 +18,7 @@ extension TaskEntity {
 
     @NSManaged public var id: String?
     @NSManaged public var name: String?
+    @NSManaged public var price: Int16
 
 }
 

@@ -15,8 +15,8 @@
 		043177D52765D40F0002135B /* TaskListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043177D42765D40F0002135B /* TaskListVC.swift */; };
 		043177D72765DF3D0002135B /* AddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043177D62765DF3D0002135B /* AddItemVC.swift */; };
 		0435C34D276730F300B36EED /* BucketList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0435C34B276730F300B36EED /* BucketList.xcdatamodeld */; };
-		0435C3502767357B00B36EED /* TaskEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435C34E2767357B00B36EED /* TaskEntity+CoreDataClass.swift */; };
-		0435C3512767357B00B36EED /* TaskEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435C34F2767357B00B36EED /* TaskEntity+CoreDataProperties.swift */; };
+		04B3260B2779D17E0044923E /* TaskEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B326092779D17E0044923E /* TaskEntity+CoreDataClass.swift */; };
+		04B3260C2779D17E0044923E /* TaskEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3260A2779D17E0044923E /* TaskEntity+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		043177D42765D40F0002135B /* TaskListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListVC.swift; sourceTree = "<group>"; };
 		043177D62765DF3D0002135B /* AddItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemVC.swift; sourceTree = "<group>"; };
 		0435C34C276730F300B36EED /* BucketList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BucketList.xcdatamodel; sourceTree = "<group>"; };
-		0435C34E2767357B00B36EED /* TaskEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TaskEntity+CoreDataClass.swift"; path = "TableVCDemo/TaskEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
-		0435C34F2767357B00B36EED /* TaskEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TaskEntity+CoreDataProperties.swift"; path = "TableVCDemo/TaskEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04B326092779D17E0044923E /* TaskEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		04B3260A2779D17E0044923E /* TaskEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +48,8 @@
 		043177B42765D2A80002135B = {
 			isa = PBXGroup;
 			children = (
-				0435C34E2767357B00B36EED /* TaskEntity+CoreDataClass.swift */,
-				0435C34F2767357B00B36EED /* TaskEntity+CoreDataProperties.swift */,
+				04B326092779D17E0044923E /* TaskEntity+CoreDataClass.swift */,
+				04B3260A2779D17E0044923E /* TaskEntity+CoreDataProperties.swift */,
 				043177BF2765D2A80002135B /* TableVCDemo */,
 				043177BE2765D2A80002135B /* Products */,
 			);
@@ -154,9 +154,9 @@
 				043177D52765D40F0002135B /* TaskListVC.swift in Sources */,
 				0435C34D276730F300B36EED /* BucketList.xcdatamodeld in Sources */,
 				043177C32765D2A80002135B /* SceneDelegate.swift in Sources */,
-				0435C3512767357B00B36EED /* TaskEntity+CoreDataProperties.swift in Sources */,
+				04B3260C2779D17E0044923E /* TaskEntity+CoreDataProperties.swift in Sources */,
 				043177D72765DF3D0002135B /* AddItemVC.swift in Sources */,
-				0435C3502767357B00B36EED /* TaskEntity+CoreDataClass.swift in Sources */,
+				04B3260B2779D17E0044923E /* TaskEntity+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,9 +303,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3BYY9V27X7;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableVCDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,6 +321,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashishpisey.TableVCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,9 +333,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3BYY9V27X7;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableVCDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -348,6 +351,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashishpisey.TableVCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

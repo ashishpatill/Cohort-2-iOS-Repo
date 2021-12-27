@@ -87,6 +87,7 @@ extension TaskListVC {
         let taskItem = TaskEntity.init(context: context) // important
         taskItem.name = task.name
         taskItem.id = task.id
+        taskItem.price = task.price
         
         //3. save context
         do {
@@ -99,11 +100,16 @@ extension TaskListVC {
     
     func getTask() {
         let context = getContext()
+        let sortdescriptor = NSSortDescriptor.init(key: "price", ascending: false)
         
         let request = NSFetchRequest<TaskEntity>.init(entityName: "TaskEntity")
+        request.sortDescriptors = [sortdescriptor]
         
         do {
             taskItemArr = try context.fetch(request)
+            for task in taskItemArr {
+                print(task.price)
+            }
             tableView.reloadData()
         } catch {
             print(error.localizedDescription)
@@ -117,7 +123,7 @@ extension TaskListVC {
         let request = NSFetchRequest<TaskEntity>.init(entityName: "TaskEntity")
         
         // query or filter
-        let predicate = NSPredicate.init(format: "name = %@", oldTaskName)
+        let predicate = NSPredicate.init(format: "name == %@", oldTaskName)
         let predicate2 = NSPredicate.init(format: "name == %@", "")
         let compoundPredicate = NSCompoundPredicate.init(orPredicateWithSubpredicates: [predicate, predicate2])
         request.predicate = compoundPredicate

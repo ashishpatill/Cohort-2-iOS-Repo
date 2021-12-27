@@ -11,6 +11,7 @@ struct Task {
     let id : String
     let name : String
     let status :  Bool
+    let price: Int16
 }
 
 protocol AddItemDelegate: NSObjectProtocol {
@@ -35,7 +36,8 @@ class AddItemVC: UIViewController {
         // pass task to task list screen
         if let task = self.taskTextField.text {
             let taskId = UUID().uuidString
-            let taskObj = Task.init(id: taskId, name: task, status: false)
+            let price = Int16.random(in: 10...50)
+            let taskObj = Task.init(id: taskId, name: task, status: false, price: price)
             print("Add item button pressed")
             addItemDelegate?.sendTask(taskObj: taskObj)
             self.navigationController?.popViewController(animated: true) // go back
