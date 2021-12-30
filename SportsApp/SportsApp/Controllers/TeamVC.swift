@@ -13,6 +13,7 @@ class TeamVC: UIViewController, UINavigationControllerDelegate {
     var teamList:[TeamItem] = []
     var alert:UIAlertController!
     var tempImage:UIImage?
+    var tempTeamName:String?
     var isEditingItem: Bool = false
     var editingTeamItem: TeamItem?
     
@@ -47,11 +48,16 @@ class TeamVC: UIViewController, UINavigationControllerDelegate {
         alert = UIAlertController.init(title: "Add a team", message: "", preferredStyle: .alert)
         
         alert.addTextField { tf in
+            if let teamName = self.tempTeamName {
+                tf.text = teamName
+            }
             tf.placeholder = "Enter team name"
         }
-                
+        let teamNameTf = self.alert.textFields?[0]
+        
         // Image Action
         let addImageAction = UIAlertAction.init(title: "Add Team Icon", style: .default, handler: { addImageAction in
+            self.tempTeamName = teamNameTf?.text
             self.getImageFromGallery()
         })
         var teamImage = tempImage?.imageResized(to: CGSize.init(width: 50, height: 30))
@@ -60,15 +66,14 @@ class TeamVC: UIViewController, UINavigationControllerDelegate {
         alert.addAction(addImageAction)
         
         // Save Action
-        let tf = self.alert.textFields?[0]
-        tf?.delegate = self
+        teamNameTf?.delegate = self
         let saveAction = UIAlertAction.init(title: "Save", style: .default, handler: { saveAction in
-            if let teamName = tf?.text {
+            if let teamName = teamNameTf?.text {
                 self.saveTeamItem(teamName: teamName, playerArr: nil)
             }
         })
         // enable/disable save action
-        saveAction.isEnabled = false
+        saveAction.isEnabled = (teamNameTf?.text?.count ?? 0) > 0
         alert.addAction(saveAction)
         
         self.present(alert, animated: true, completion: nil)
@@ -82,7 +87,7 @@ class TeamVC: UIViewController, UINavigationControllerDelegate {
         self.tempImage = nil
     }
     
-    @objc func btnUpdateClicked(sender:UIButton) {
+    @objc func btnTeamIconClicked(sender:UIButton) {
         isEditingItem = true
         editingTeamItem = teamList[sender.tag]
         self.getImageFromGallery()
@@ -103,7 +108,7 @@ extension TeamVC: UITableViewDataSource, UITableViewDelegate {
         }
         // to identify which button was clicked
         cell.btnTeamIcon.tag = indexPath.row
-        cell.btnTeamIcon.addTarget(self, action: #selector(btnUpdateClicked(sender:)), for: .touchUpInside)
+        cell.btnTeamIcon.addTarget(self, action: #selector(btnTeamIconClicked(sender:)), for: .touchUpInside)
         return cell
     }
     

@@ -81,7 +81,6 @@ class PlayerVC: UIViewController {
                     let (updatedTeamItem, error) = CoreDataManager.shared.addPlayerToTeam(playerName: playerName, age: age, height: height, team: self.teamItem!)
                     self.reloadPlayerData(updatedTeamItem: updatedTeamItem, error: error)
                 }
-                
             }
         })
         // enable/disable save action
