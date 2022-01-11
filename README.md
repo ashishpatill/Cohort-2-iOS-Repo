@@ -4,7 +4,7 @@
   - Variables 
   - Constants
   - Type inference
-  - Type casting
+  - [Type casting](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Type%20Casting.playground)
   
 ## [Conditionals](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Swift%20Basics%201.playground)
   - If statement
@@ -70,7 +70,7 @@
   - With Constraints
   - With StackViews
 
-## [Share Data between view controllers]()
+## Share Data between view controllers
   - How to use protocols to send data between view controllers (Delegation pattern)
   - How to use properties to send data to next screen
   - [How to send data using segues](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Fifa%20Rankings)
@@ -94,6 +94,10 @@
   - Difference between relational database and object oriented database
   - Core data operations: Fetch, Save, Update, Delete
   - [Core data relationships](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/FamilyApp)
+
+## [Parse Json](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Parse%20Json%20Demo)
+  - How to read json from a json file
+  - How to convert json to dictionary or array with json serialization
 
 ## [Networking with Api/webservices](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Movie%20Api%20demo)
   - How to create GET request 
