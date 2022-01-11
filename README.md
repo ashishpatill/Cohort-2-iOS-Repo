@@ -93,3 +93,4 @@
 ## Core Data Crud operations
   - Difference between relational database and object oriented database
   - Core data operations: Fetch, Save, Update, Delete
+  - Core data relationships
