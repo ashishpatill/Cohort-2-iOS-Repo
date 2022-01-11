@@ -97,6 +97,7 @@ class PlayerVC: UIViewController {
         if let playerItemIndex = playerArr.firstIndex(where: {$0.id == editingPlayerItem.id}) {
             playerArr[playerItemIndex] = editingPlayerItem
         }
+        // team item updated with new player array
         self.teamItem?.player = NSSet.init(array: playerArr)
         let error = CoreDataManager.shared.saveContext()
         self.reloadPlayerData(updatedTeamItem: self.teamItem, error: error)
