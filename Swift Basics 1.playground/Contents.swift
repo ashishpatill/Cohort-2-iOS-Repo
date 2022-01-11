@@ -1,20 +1,23 @@
 import UIKit
 import Darwin
 
-var dict = ["key1":"Value1", "Key2": "Value2"]
-
-dict["key3"] = "value3"
-
+// int variables with different data types
 var unsignedNumber: UInt = 32785
 var negativeInt: Int = -30
 var positiveInt: Int = 40
 var smallInt: Int16 = 20
 var bigInt: Int32 = 1049549386
 var massiveInt: Int64 = 629640907230607926
+// constant 
 let intType = type(of: negativeInt)
 
+// string 
+var normalString = "Alive without breath, As cold as death; Never thirsty, ever drinking, All in mail never clinking."
+var name = "Ashish "
+var message = "My name is "
+var newmessage =  message + name
 
-
+// multiline string
 var aMultiLineString = """
    Alive without breath,
    As cold as death;
@@ -22,42 +25,13 @@ var aMultiLineString = """
    All in mail never clinking.
 """
 
-var normalString = "Alive without breath, As cold as death; Never thirsty, ever drinking, All in mail never clinking."
-var name = "Ashish "
-var message = "My name is "
-var newmessage =  message + name
+// dictionary
+var dict = ["key1":"Value1", "Key2": "Value2"]
+dict["key3"] = "value3"
 
-class Person {
-    let name:String = "Ashish"
-}
+//MARK:- conditionals
 
-let aStudent = Person()
-let aTeacher = Person()
-//let personType = type(of: aStudent.name)
-// identity operator
-if aStudent === aTeacher {
-    print("condition satified")
-} else {
-    print("condition not satified")
-}
-
-let unkownn = aStudent
-
-// identity operator
-if aStudent === unkownn {
-    print("condition satified")
-} else {
-    print("condition not satified")
-}
-
-
-//equality operator
-if aStudent.name == aTeacher.name {
-    print("condition satified")
-} else {
-    print("condition not satified")
-}
-
+// if else 
 var isMale = false
 //isMale.toggle()
 
@@ -77,8 +51,8 @@ if isAdult && isMale {
     print("Buy a dress")
 }
 
+// Switch case
 var age = 60
-
 switch age {
 case 20...age:
     print("I am allowed")
@@ -99,6 +73,7 @@ default:
     print("default")
 }
 
+//MARK: - for loops
 var someInt = 7
 for i in 0..<5 {
     print(i)
@@ -107,6 +82,7 @@ for i in 0..<5 {
     }
 }
 
+//MARK: - while loop
 var i = 0
 while i < 5 {
     print(i)
@@ -115,6 +91,7 @@ while i < 5 {
 
 let randomeNumber = Int.random(in: 0...10)
 
+//MARK: - Class
 class Car {
     var name = ""
     
@@ -130,7 +107,7 @@ bmw.name = "Ford"
 print(mercedez.name) // 222
 print(bmw.name) // 222
 
-
+//MARK: - Struct
 struct Employer {
     var name = ""
     
@@ -145,3 +122,36 @@ apple = samsung
 apple.name = "Asus"
 print(apple.name) // 111
 print(samsung.name) // 222
+
+//MARK: - Equality vs identity operator 
+class Person {
+    let name:String = "Ashish"
+}
+
+let aStudent = Person()
+let aTeacher = Person()
+//let personType = type(of: aStudent.name)
+
+// identity operator
+if aStudent === aTeacher {
+    print("condition satified")
+} else {
+    print("condition not satified")
+}
+
+let unkownn = aStudent
+
+// identity operator
+if aStudent === unkownn {
+    print("condition satified")
+} else {
+    print("condition not satified")
+}
+
+//equality operator
+if aStudent.name == aTeacher.name {
+    print("condition satified")
+} else {
+    print("condition not satified")
+}
+
