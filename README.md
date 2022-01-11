@@ -32,7 +32,7 @@
   - Optional chaining from dictionary and custom object
   - Implicitly unwrapped optionals
 
-## Closures
+## Closures - [Project Link](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Closures.playground)
   - Closure syntax
   - Creating closure variables
   - Calling a closure
