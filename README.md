@@ -1,17 +1,17 @@
 # Cohort 2 iOS Repo
  
-## Variables and constants
+## [Variables and constants](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Swift%20Basics%201.playground)
   - Variables 
   - Constants
   - Type inference
   - Type casting
   
-## Conditionals 
+## [Conditionals](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Swift%20Basics%201.playground)
   - If statement
   - Switch statement
   - Identity and Equality operator
 
-## Loops
+## [Loops](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Swift%20Basics%201.playground)
   - For Loop
   - While loop
   - Range operators
@@ -46,7 +46,7 @@
  
 ### [Solution to calculate Area of triangle with classes and struct](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Calculate%20area%20of%20triangle.playground)
 
-## Inheritance and Class Extension
+## [Inheritance and Class Extension](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Inheritance.playground)
   - What is inheritance
   - Why we need inheritance
   - Limitations of inheritance
@@ -59,7 +59,7 @@
   - Protocol extensions
 
 ## Autolayout
-  - Intro to Autolayout
+  - [Intro to Autolayout](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Autolayout%20Basics)
  
 ## [Stack Views](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/StackViews%10Demo)
   - Intro to Stack Views
@@ -100,3 +100,7 @@
   - How to use completion handlers
   - How to create an Api Manager class to create network request
   - How to handle response after network request
+
+## [Dependency Management in iOS](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/LibraryInstall%20Demo)
+  - How to install libraries with Cocoapods
+  - How to install libraries with Swift Package manager
