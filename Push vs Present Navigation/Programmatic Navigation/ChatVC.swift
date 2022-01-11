@@ -14,6 +14,8 @@ class ChatVC: UIViewController {
 
         // Do any additional setup after loading the view.
         print(self.navigationController?.viewControllers)
+        NotificationCenter.default.post(name: NotificationManager.shared.getRegisterNotificationName(), object: nil, userInfo: ["name":"Pulkit"])
+        self.navigationController?.popToRootViewController(animated: true)
     }
 
 }

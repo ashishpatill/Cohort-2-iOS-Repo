@@ -20,7 +20,8 @@ class LoginVC: UIViewController {
     
     func addRegisterNotification() {
         //let name = "Ashish"
-        let _ = NotificationCenter.default.addObserver(self, selector: #selector(signoutSuccess(notification:)), name: NotificationManager.shared.getRegisterNotificationName(), object: nil)
+        let notificationName  = Notification.Name("register_success")
+        let _ = NotificationCenter.default.addObserver(self, selector: #selector(signoutSuccess(notification:)), name: notificationName, object: nil)
     }
     
     @objc func signoutSuccess(notification:Notification) {
@@ -28,9 +29,9 @@ class LoginVC: UIViewController {
         print("signout is successfull")
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
-        NotificationCenter.default.removeObserver(self, name: NotificationManager.shared.getRegisterNotificationName(), object: nil)
-    }
+//    override func viewDidDisappear(_ animated: Bool) {
+//        NotificationCenter.default.removeObserver(self, name: NotificationManager.shared.getRegisterNotificationName(), object: nil)
+//    }
 
     @IBAction func goToRegister(_ sender: UIButton) {
         let registerVC = storyboard?.instantiateViewController(withIdentifier: String(describing: RegisterVC.self)) as! RegisterVC
