@@ -39,7 +39,7 @@
   - Using closure as a parameter to a function
   - Closures with escaping parameters
 
-## Classes and Struct
+## [Classes and Struct](https://github.com/fatengh/Cohort-2-iOS-Repo/blob/main/Class%20Structs.playground)
   - Creating a class and a struct
   - Constant and variable class instances and struct instances 
   - Reference type as class and structs
@@ -90,7 +90,13 @@
 ## NSUserDefaults 
   - Fetch and save data in core data
  
-## Core Data Crud operations
+## [Core Data Crud operations](https://github.com/fatengh/Cohort-2-iOS-Repo/tree/main/TableVCDemo)
   - Difference between relational database and object oriented database
   - Core data operations: Fetch, Save, Update, Delete
   - Core data relationships
+
+## [Networking with Api/webservices](https://github.com/fatengh/Cohort-2-iOS-Repo/tree/main/Movie%20Api%20demo)
+  - How to create GET request 
+  - How to use completion handlers
+  - How to create an Api Manager class to create network request
+  - How to handle response after network request
