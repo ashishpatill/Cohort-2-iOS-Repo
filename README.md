@@ -85,7 +85,7 @@
 
 ## Programmatic navigation
   - Programmatic navigation without segues
-  - Push vs Modal navigation 
+  - [Push vs Present(Modal) navigation](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Push%20vs%20Present%20Navigation) 
 
 ## NSUserDefaults 
   - Fetch and save data in core data
