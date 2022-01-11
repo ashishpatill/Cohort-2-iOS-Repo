@@ -48,6 +48,7 @@ class ViewController: UIViewController {
 extension ViewController: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         // notification arrived
+        // this will be executed when app is open
         showAlert()
         print("will present notification")
         completionHandler(UNNotificationPresentationOptions.sound)
@@ -55,6 +56,8 @@ extension ViewController: UNUserNotificationCenterDelegate {
     
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse) async {
         // notification clicked or opened
+        // this will be executed only when app is minimised
+        showAlert()
         print("did receive notification")
     }
     
