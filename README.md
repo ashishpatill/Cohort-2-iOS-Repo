@@ -87,6 +87,10 @@
   - [Programmatic navigation without segues](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Programmatic%20Navigation)
   - [Push vs Present(Modal) navigation](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Push%20vs%20Present%20Navigation) 
 
+## [Xib Demo](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Xib%20demo)
+  - How to use Xibs instead of storyboard
+  - How to navigate between view controllers with Xibs
+
 ## NSUserDefaults 
   - Fetch and save data in core data
  
