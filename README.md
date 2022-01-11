@@ -94,6 +94,7 @@
   - Difference between relational database and object oriented database
   - Core data operations: Fetch, Save, Update, Delete
   - [Core data relationships](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/FamilyApp)
+    - [Sports app assignment](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/SportsApp)
 
 ## [Parse Json](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Parse%20Json%20Demo)
   - How to read json from a json file
