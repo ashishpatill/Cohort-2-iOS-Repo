@@ -16,16 +16,16 @@
   - While loop
   - Range operators
 
-## Arrays
+## [Arrays](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/ArrayAndDictionary.playground)
   - Adding, fetching, removing elements
   - Looping through array
   - Accessing index and value in array with enumerated()
 
-## Dictionaries
+## [Dictionaries](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/ArrayAndDictionary.playground)
   - Adding, fetching, removing elements
   - Looping through dictionary
 
-## Optionals
+## [Optionals](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Optionals.playground)
   - Declaring Optional variables, constants
   - Unwrapping optionals with if-let, guard
   - Force unwrapping optionals
@@ -39,12 +39,12 @@
   - Using closure as a parameter to a function
   - Closures with escaping parameters
 
-## [Classes and Struct](https://github.com/fatengh/Cohort-2-iOS-Repo/blob/main/Class%20Structs.playground)
+## [Classes and Struct](https://github.com/ashishpatill/Cohort-2-iOS-Repo/blob/main/Class%20Structs.playground)
   - Creating a class and a struct
   - Constant and variable class instances and struct instances 
   - Reference type as class and structs
  
-### Solution to calculate Area of triangle with classes and struct
+### [Solution to calculate Area of triangle with classes and struct](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Calculate%20area%20of%20triangle.playground)
 
 ## Inheritance and Class Extension
   - What is inheritance
@@ -52,7 +52,7 @@
   - Limitations of inheritance
   - Extensions and its limitations
 
-## Protocols
+## [Protocols](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Protocols.playground)
   - Why we need protocols
   - How to create and use protocols
   - How to pass data using protocols
@@ -61,41 +61,41 @@
 ## Autolayout
   - Intro to Autolayout
  
-## Stack Views
+## [Stack Views](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/StackViews%10Demo)
   - Intro to Stack Views
   - How to use vertical and horizontal stackviews
   - Nested stackviews
 
-## ScrollView
+## [ScrollView](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/ScrollView%20Demo)
   - With Constraints
   - With StackViews
 
-## Share Data between view controllers
+## [Share Data between view controllers]()
   - How to use protocols to send data between view controllers (Delegation pattern)
   - How to use properties to send data to next screen
-  - How to send data using segues
+  - [How to send data using segues](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Fifa%20Rankings)
 
 ## TableView
   - TableView with default cell
   - TableView with custom cell
 
-## Navigation with segues
+## [Navigation with segues](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Navigation%20Demo)
   - Show segue
   - Modal segue
 
 ## Programmatic navigation
-  - Programmatic navigation without segues
+  - [Programmatic navigation without segues](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Programmatic%20Navigation)
   - [Push vs Present(Modal) navigation](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Push%20vs%20Present%20Navigation) 
 
 ## NSUserDefaults 
   - Fetch and save data in core data
  
-## [Core Data Crud operations](https://github.com/fatengh/Cohort-2-iOS-Repo/tree/main/TableVCDemo)
+## [Core Data Crud operations](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/TableVCDemo)
   - Difference between relational database and object oriented database
   - Core data operations: Fetch, Save, Update, Delete
-  - Core data relationships
+  - [Core data relationships](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/FamilyApp)
 
-## [Networking with Api/webservices](https://github.com/fatengh/Cohort-2-iOS-Repo/tree/main/Movie%20Api%20demo)
+## [Networking with Api/webservices](https://github.com/ashishpatill/Cohort-2-iOS-Repo/tree/main/Movie%20Api%20demo)
   - How to create GET request 
   - How to use completion handlers
   - How to create an Api Manager class to create network request
