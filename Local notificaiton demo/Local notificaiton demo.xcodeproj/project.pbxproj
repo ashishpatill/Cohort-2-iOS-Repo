@@ -26,6 +26,7 @@
 		04A46482276B268F00772A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A46485276B268F00772A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A46487276B268F00772A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C4C409278D623F00CACFA2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				04A46482276B268F00772A44 /* Assets.xcassets */,
 				04A46484276B268F00772A44 /* LaunchScreen.storyboard */,
 				04A46487276B268F00772A44 /* Info.plist */,
+				04C4C409278D623F00CACFA2 /* README.md */,
 			);
 			path = "Local notificaiton demo";
 			sourceTree = "<group>";
